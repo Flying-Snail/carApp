@@ -1,0 +1,29 @@
+<ion-view class="register">
+  <ion-content overflow-scroll="true" style="overflow: hidden">
+
+    <div class="registerBg scroll">
+
+      <div class="zhuceFanhui" ng-click="barBack()">
+        <span>&lt返回</span>
+      </div>
+
+      <div class="registerList">
+        <div class="regisInputs">
+          <span class="col-w">输入手机号：</span>
+          <input type="tel" class="regisInput" ng-model="sta.tel"/>
+        </div>
+        <div class="regisInputs">
+          <span class="col-w">输入密码：</span>
+          <input type="password" class="regisInput" ng-model="sta.pwd1"/>
+        </div>
+        <div class="regisInputs">
+          <input type="text" class="col-w regCodeInput" ng-model="sta.code">
+          <button class="col-w resCodeBtn" ng-click="sendCode()" ng-bind="getCode" ng-disabled="isSend" ></button>
+        </div>
+        <button class="registerButton" ng-click="carSub()">注册</button>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>

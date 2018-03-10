@@ -1,0 +1,21 @@
+<ion-view>
+  <ion-header-bar align-title="meddle">
+    <h1 class="title">停车场</h1>
+  </ion-header-bar>
+
+  <ion-content class="content">
+    <div style="margin-top: 3%;">
+      <ion-list>
+        <ion-item  class="item item-icon-right" ng-repeat="item in items" ng-click="checkLogin(item)">
+          <div class="right">
+            <img class="directiveImg" src="./img/directive.png" alt="">
+            <div>到这去</div>
+          </div>
+          <div class="stopName">{{item.name}}</div>
+          <div>距离为{{item.dis}}米,停车位有{{item.space}}个</div>
+        </ion-item>
+      </ion-list>
+    </div>
+</ion-content>
+
+</ion-view>

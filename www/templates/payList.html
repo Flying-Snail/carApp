@@ -1,0 +1,25 @@
+<ion-view>
+  <ion-header-bar align-title="meddle">
+    <div class="my-bar bg-w" ng-click="barBack()">
+      <i class="icon ion-chevron-left"></i><span>返回</span>
+    </div>
+    <h1 class="title">缴费记录</h1>
+  </ion-header-bar>
+  <ion-content class="carNumBind">
+    <ion-list>
+      <div ng-repeat="item in payLists">
+        <ion-item  class="item item-padding" ng-click="showDetail(item)">
+          <i ng-class="{true: 'ion-chevron-up', false: 'ion-chevron-down'}[item.isShow]" class="right"></i>
+          <div>{{item.carNum}}</div>
+          <div class="fz-small">{{item.InTime}}</div>
+        </ion-item>
+        <ion-item ng-show="item.isShow">
+          <p>进入时间：{{item.InTime}}</p>
+          <p>驶出时间：{{item.OutTime}}</p>
+          <p>停车时长：{{item.timeD}}天{{item.timeH}}时{{item.timeM}}分{{item.timeS}}秒</p>
+          <p>缴费金额：{{item.price}}元</p>
+        </ion-item>
+      </div>
+    </ion-list>
+  </ion-content>
+</ion-view>

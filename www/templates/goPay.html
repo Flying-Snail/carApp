@@ -1,0 +1,34 @@
+<ion-view>
+  <ion-header-bar align-title="meddle" class="map-head meheaderBg">
+    <div class="my-bar meheaderBg" ng-click="barBack()">
+      <i class="icon ion-chevron-left"></i><span>返回</span>
+    </div>
+    <h1 class="title">待支付</h1>
+  </ion-header-bar>
+  <ion-content class="carNumBind">
+    <img ng-src="./img/topImg2.png" class="topImg">
+    <div class="addPading bg-w">
+      <div class="payDiv1">
+        <label class="fz16">
+          请输入车牌号：
+        </label>
+        <input type="text" class="pay_input" ng-model="payCarNum.num">
+      </div>
+
+      <div class="payDiv2">
+        <label class="fz14">您本次消费一共{{mon}}元</label>
+      </div>
+    </div>
+    <div class="payDiv3" ng-show="isPay">
+      <p>本次支付成功，但还未完成本次行程！</p>
+      <p>请不要离开应用，在15分钟后会再次检测您的位置</p>
+      <p>若15分钟后您已出停车场，则完成本次停车，若未驶出停车场，则会再次支付</p>
+    </div>
+    <div class="te-c">
+      <button class="button button-calm p_button" ng-click="confirmPayment()" ng-disabled="!canPay">
+        {{payStatus}}
+      </button>
+    </div>
+    <img src="./img/zhifu.png" alt="" class="zhifu" ng-show="isPay">
+  </ion-content>
+</ion-view>

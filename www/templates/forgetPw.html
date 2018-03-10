@@ -1,0 +1,27 @@
+<ion-view>
+  <ion-header-bar align-title="meddle" class="map-head bgBlue">
+    <div class="my-bar bgBlue" ng-click="barBack()">
+      <span>&lt返回</span>
+    </div>
+    <h1 class="title">忘记密码</h1>
+  </ion-header-bar>
+  <ion-content>
+    <img class="forPwBg" ng-src="./img/headImg.png" alt="">
+    <div class="for_content">
+      <div class="forBgs">
+        <span class="forSpan1">请输入手机号</span>
+        <input type="tel" class="forInput" ng-model="forPw.tel" placeholder="手机号"/>
+      </div>
+      <div class="forBgs">
+        <input  type="text" class="forInput2" ng-model="forPw.code" placeholder="验证码"/>
+        <button class="forBtn" ng-disabled="isSend" ng-bind="getCode" ng-click="sendCode()"></button>
+      </div>
+      <div class="forBgs" ng-show="pwShow">
+        <span class="forSpan1"> 您的密码为：</span>
+        <span type="text" class="forSpan1" ng-bind="forPw.pw" disabled="true"></span>
+        <button class="forBtn" ng-click="iKnow()">我知道了</button>
+      </div>
+      <button class="confirmFindPwBtn" ng-click="confirmFindPwBtn()">确&nbsp;&nbsp;认</button>
+    </div>
+  </ion-content>
+</ion-view>

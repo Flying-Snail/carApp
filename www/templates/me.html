@@ -1,0 +1,44 @@
+<ion-view>
+  <ion-header-bar align-title="meddle" class="meheaderBg">
+    <h1 class="title">个人中心</h1>
+  </ion-header-bar>
+  <ion-content class="me">
+    <!--<img ng-src="./img/top_img.png" class="topImg">-->
+    <!--用户头像-->
+    <div class="headImgBg">
+      <div class="headImg">
+        <img ng-src="{{img}}" class="headImg1" ng-click="selectImg()">
+      </div>
+    </div>
+    <ion-list>
+      <ion-item class="item item-icon-right"  ng-click="checkLogin('personal')">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>个人信息</p>
+      </ion-item>
+      <ion-item class="item item-icon-right"  ng-click="checkLogin('carNumberBind')">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>车牌号绑定</p>
+      </ion-item>
+      <ion-item class="item item-icon-right"  ng-click="checkLogin('pwChange')">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>密码修改</p>
+      </ion-item>
+      <ion-item class="item item-icon-right" ng-click="checkLogin('goPay')">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>待支付</p>
+      </ion-item>
+      <ion-item class="item item-icon-right" ng-click="checkLogin('payList')">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>缴费信息查询</p>
+      </ion-item>
+      <ion-item class="item item-icon-right" ng-click="checkLogin('meSetting')">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>设置</p>
+      </ion-item>
+      <ion-item class="item item-icon-right" ng-click="denglu()">
+        <i class="icon ion-ios-arrow-right fz-icon"></i>
+        <p>登录</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,444 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: "微软雅黑，arial,sans-serif" !important;
+}
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.item-padding{
+  padding: 10px 10px 5px 10px;
+}
+.fz-small{
+  font-size: 8px;
+}
+.fz-icon{
+  font-size:1.5em !important;
+}
+.delateMargin{
+  margin: 0 !important;
+}
+.fz14{
+  font-size: 14px;
+}
+.delatePadding{
+  padding: 0 !important;
+}
+.addPading{
+  padding: 6px 16px 0 16px;
+}
+.bg-w{
+  background-color: #fff;
+}
+.col-w{
+  color: #fff;
+}
+.p-r{
+  position: relative;
+}
+.p-a{
+  position: absolute;
+}
+.te-c{
+  text-align: center;
+}
+.va-m{
+  vertical-align: middle;
+}
+.bc-w{
+  background-color: #fff;
+}
+.metitle{
+  /*margin-top: 0 !important;*/
+}
+/*地图*/
+.map{
+  width: 100%;
+  height: 100%;
+}
+.map-head{
+  background-color: rgb(248,248,248);
+}
+
+/*停车列表样式*/
+.content{
+  background-color:rgb(214,215,215);
+}
+
+.right{
+  float: right;
+}
+.directiveImg{
+  width: 25px;
+  height: 25px;
+}
+.go{
+  font-size: 16px;
+}
+/*登录页样式*/
+
+.loginBack{
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/loginBack.png");
+  background-size: cover;
+}
+.wenzi{
+  color: #fff;
+  font-size: 2em;
+  margin-top:30%;
+  margin-left: 40%;
+}
+
+.mylist{
+  width: 70%;
+  height: 100%;
+  height: 3em;
+  margin-left: 15%;
+  margin-top: 15%;
+}
+.myitem{
+  border: solid 1px #fff;
+  background-color: inherit;
+  border-radius: 3.5em;
+  margin-top: 5%;
+}
+.myitem span{
+  color: #fff;
+}
+.lijilogin{
+  color: #fff;
+  height: inherit;
+  line-height: 2.2em;
+  margin-left: 30%;
+}
+.goRegister{
+  color: #fff;
+  margin-top: 6%;
+  margin-left: 6%;
+  float: left;
+}
+.footer{
+  color: #fff;
+  margin-top: 6%;
+  margin-right: 6%;
+  float: right;
+}
+
+/*注册页样式*/
+/*.regisPhoneBg{*/
+  /*background-color: #0892f8;*/
+/*}*/
+.zhuceFanhui{
+  position: relative;
+  left: 2%;
+  top: 2%;
+}
+.zhuceFanhui span{
+  color: grey;
+}
+.register{
+  height: 100%;
+  width: 100%;
+  background: url("../img/registerBg.png");
+  background-size: cover;
+}
+.registerBg{
+  position: relative;
+}
+.registerList{
+  position: absolute;
+  top: 16em;
+  width: 60%;
+  left: 20%;
+  right: 20%;
+}
+.resCodeBtn{
+  border-style: none;
+  padding-left: 1em;
+  background-color: transparent;
+}
+.regisInputs{
+  border: 1px solid #fff;
+  border-radius: 2em;
+  padding-left: 2em;
+  margin-bottom: 10%;
+}
+.regisInput{
+  background-color: transparent;
+  display: inline !important;
+  width: 50%;
+}
+.regCodeInput{
+  display: inline !important;
+  background-color: transparent;
+  width: 40%;
+  border-right: 1px solid #fff !important;
+}
+.checkInput{
+  display: inline !important;
+  height: 3.5em !important;
+  width: 55%;
+  background-color: #e5dede;
+}
+.registerButton{
+  border-style: none;
+  display: inline-block;
+  width: 100%;
+  padding: 0 12px;
+  height: 40px;
+  border-radius: 2em;
+  vertical-align: top;
+  font-size: 14px;
+  color: #fff;
+  background-color: #51b1f8;
+}
+
+
+/*忘记密码*/
+.forPwBg{
+  width: 100%;
+}
+.forBgs{
+  background-color: #fff;
+  border-bottom: 1px solid #bfc0c0;
+  padding-left: 2em;
+  height: 4em;
+  padding-top: 0.5em;
+  padding-right: 2em;
+}
+.bgBlue{
+  background-color: #8bc8f0 !important;
+}
+.for_content{
+  width: 100%;
+}
+.forInput{
+  background-color: transparent;
+  margin-left: 8em;
+  margin-top: 0.2em;
+}
+.forInput2{
+  background-color: transparent;
+  display: inline !important;
+  height: 3em !important;
+  margin-bottom: 0.5em;
+  width: 13em;
+}
+.forSpan1{
+  color: #0892f8;
+  line-height: 3em;
+  float: left;
+}
+.forSpan{
+  margin-left: 3em;
+}
+.iKnow{
+  background-color: #7ecef4;
+  width: 6em;
+  height: 3em;
+  border-style: none;
+  border-radius: 1em;
+}
+.forBtn{
+  background-color: #7ecef4;
+  color: #fff;
+  height: 3em;
+  width: 7em;
+  border-style: none;
+  border-radius: 7px;
+  float: right;
+}
+.confirmFindPwBtn{
+  border-style: none;
+  background-color: #0892f8;
+  color: #fff;
+  width: 90%;
+  height: 3em;
+  border-radius: 0.5em;
+  margin-left: 5%;
+  margin-top: 3em;
+  margin-right: 15%;
+  font-size: 1.2em;
+}
+.bottom_black2{
+  border-bottom: 1px solid #707070;
+  margin-bottom: 1em;
+}
+
+/* 停车场详情页*/
+.carDetail{
+  background-color:#d8dddf;
+}
+.my-bar{
+  border-style: none;
+  /*background-color: rgb(248,248,248);*/
+  margin-top: 0.5em !important;
+}
+.carDetail p{
+  background-color: #fff;
+  font-size: 18px;
+  line-height: 50px;
+  padding-left: 16px;
+}
+.car-img{
+  width: 100%;
+}
+.carDetail pre{
+  background-color: #fff;
+  font-size: 16px;
+  padding-top: 10px;
+}
+.go-login{
+  width: 60%;
+  border-radius: 5em;
+  margin-top: 5%;
+}
+.carDesp{
+  margin-bottom: 10px;
+  font-size: 18px;
+  padding: 13px 0 13px 10px;
+}
+.carDesp img{
+  float: left;
+}
+.carDesp span{
+  display: block;
+  margin-top: 5px;
+}
+/*成功进入停车场*/
+.sucInBg{
+  background: url("../img/wait.png");
+  background-size: cover;
+}
+.sucInBg p{
+  color: #2980ff;
+}
+.sucInP1{
+  position: relative;
+  top: 3%;
+  left: 35%;
+}
+.sucInP2{
+  position: relative;
+  top: 4%;
+  left: 25%;}
+/*我*/
+.me{
+  background-color: #eef3f6;
+  background-size: cover;
+}
+.meheaderBg{
+  background-color: #94cdf3;
+}
+.headImgBg{
+  background: url('../img/headImg.png');
+  width: 100%;
+  background-size: cover;
+  height: 132px;
+  padding-top: 8%;
+  padding-left: 40%;
+}
+.headImg{
+  width: 74px;
+  height: 74px;
+  border-radius: 50%;
+  /*background-color: #92dafa;*/
+  background: url("../img/init.png");
+  background-size: cover;
+}
+.headImg1{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+/* 个人详情*/
+.p_button{
+  width: 90%;
+  border-radius: 0.5em;
+  margin-top: 4em;
+  background-color: #0892f8 !important;
+}
+.bg-b{
+  background-color: #198db8;
+}
+/*车牌号绑定*/
+.carNumBind{
+  background-color: #eef3f6;
+  background-size: cover;
+}
+.carCode{
+  height: 5em;
+  padding-top: 1em;
+}
+.carNumInput{
+  margin-bottom: 4%;
+  margin-top: 2%;
+  height: 70px;
+}
+.car_input{
+  border-style: none;
+  height: 47px;
+  margin-left: 4%;
+}
+.car_but{
+  margin-left: 5%;
+}
+.topImg{
+  width: 100%;
+}
+.sexSelect{
+  width: 64%;
+  padding-right: 58% !important;
+  padding-left: 0 !important;
+}
+/*APP设置*/
+.exitLogin{
+  margin-top: 16px;
+}
+/*意见反馈*/
+.feedTextarea{
+  width: 80%;
+  height: 315px;
+  border: 1px solid;
+  margin-left: 10%;
+  margin-top: 15%;
+}
+.feed{
+  background-image: url("../img/me_bg.png");
+}
+.slideDiv{
+  height: 100%;
+}
+.slideImg{
+  width: 100%;
+  height: 100%;
+}
+/*支付*/
+.pay_input{
+  display: inline !important;
+  vertical-align: baseline !important;
+}
+.payDiv1{
+  border-bottom: solid 1px #dbdbdb;
+  height: 40px;
+}
+.payDiv2{
+  border-bottom: solid 1px #dbdbdb;
+  height: 46px;
+  padding-top: 3%;
+}
+.payDiv3{
+  background-color: #fff;
+  padding: 6px 16px 6px 16px;
+}
+.payDiv3 p{
+  margin: 2px 0 0  2px;
+}
+.zhifu{
+  width: 40%;
+  margin-top: 17%;
+  margin-left: 29%;
+}
